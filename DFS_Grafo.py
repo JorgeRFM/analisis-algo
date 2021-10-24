@@ -25,6 +25,6 @@ graph = {"A":["B","C", "D"],
            "F":["J"]}
 
 
-path = recursive_dfs(graph, "A")
+path = dfs(graph, "A")
 
 print(" ".join(path))
